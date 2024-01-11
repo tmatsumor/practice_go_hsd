@@ -1,9 +1,12 @@
+// package hsd provide functions for calculate Hamming distance.
 package hsd
 
+// convert string arguments to rune array.
 func StringDistance(lhs, rhs string) int {
 	return Distance([]rune(lhs), []rune(rhs))
 }
 
+// calculate Hamming distance.
 func Distance(a, b []rune) int {
 	dist := 0
 	if len(a) != len(b) {
