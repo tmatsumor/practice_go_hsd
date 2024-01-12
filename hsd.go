@@ -19,3 +19,11 @@ func Distance(a, b []rune) int {
 	}
 	return dist
 }
+
+func Hoge() int {
+	return 0
+}
+
+func Bar() int {
+	return 1
+}
