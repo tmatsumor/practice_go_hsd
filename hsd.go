@@ -27,3 +27,7 @@ func Hoge() int {
 func Bar() int {
 	return 1
 }
+
+func Mya() int {
+	return 2
+}
